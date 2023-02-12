@@ -23,12 +23,19 @@ O operador de atribuição é utilizado para definir o valor inicial ou sobrescr
 
 #### Aritméticos
 O operador aritmético, é utilizado para realizar operações matemáticas entre valores numéricos, podendo se tornar ou não uma expressão mais complexa.
-Os operadores aritméticos são: 
+Os operadores aritméticos são:
+```
     + (adição),
+
     - (subtração),
+
     * (multiplicação),
+
     / (divisão),
+
     % (módulo),
+```
+
 
 `//classe Operadores.java`
 
@@ -41,6 +48,7 @@ int modulo = 18 % 3;
 double resultado = (10 * 7) + (20/4);
 ```
 **ATENÇÃO! O operador de adição (+), quando utilizado em variáveis do tipo texto, realizará a “concatenação de textos”.**
+
 `//classe Operadores.java`
 
 ```String nomeCompleto = "LINGUAGEM" + "JAVA";```
@@ -48,9 +56,13 @@ double resultado = (10 * 7) + (20/4);
 #### Unários
 Esses operadores, são aplicados juntamente com um outro operador aritmético. Eles realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos e booleanos.
     *(+) Operador unário de valor positivo* – números são positivos sem esse operador explicitamente;
+
     *(-) Operador unário de valor negativo* – nega um número ou expressão aritmética;
+
     *(++) Operador unário de incremento de valor* – incrementa o valor em 1 unidade;
+
     *(--) Operador unário de decremento de valor* – decrementa o valor em 1 unidade;
+
     *(!) Operador unário lógico de negação* – nega o valor de uma expressão booleana.
 
 **Muito cuidado com ordem de precedência, dos operadores unários!**
@@ -65,11 +77,17 @@ O operador ternário é representado pelos símbolos `"?"` e `":"` utilizados na
 Os operadores relacionais, avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior, maior ou igual ao da direita, retornando um valor booleano como resultado.
 
 *== Quando desejamos verificar se uma variável é IGUAL A outra.*
+
 *!= Quando desejamos verificar se uma variável é DIFERENTE da outra.*
+
 *> Quando desejamos verificar se uma variável é MAIOR QUE a outra.*
+
 *>= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.*
+
 *< Quando desejamos verificar se uma variável é MENOR QUE outra.*
+
 *<= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.*
+
 
 ###### Comparações avançadas
 Quando se refere a comparação de conteúdos na linguagem, devemos ter um certo domínio, de como o Java trata o armazenamento destes valores na memória.
@@ -80,4 +98,5 @@ Quando se refere a comparação de conteúdos na linguagem, devemos ter um certo
 Os operadores lógicos, representam o recurso que nos permite criar expressões lógicas maiores, a partir da junção de duas ou mais expressões.
 
 *&& Operador Lógico "E"*
+
 *|| Operador Lógico "OU"*
