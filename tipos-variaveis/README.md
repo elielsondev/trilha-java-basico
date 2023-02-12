@@ -10,6 +10,7 @@ portanto representam valores brutos. Eles são armazenados diretamente na pilha 
 (Memory stack).
 
 > Tabela de Tipos Primitivos e seus valores:
+
 `char` - Suporta apenas um caractere;
 ```
 char sexo = "M";
@@ -42,6 +43,7 @@ long celulasDoCorpo = 37000000000000L;
 **OBS: No tipo `long` sempre ao final do valor devemos inserir a letra `L`.**
 
 > Os tipos primitivos, que podem conter partes fracionárias podem ser representados por dois tipos:
+
 `float` - Suporta valores entre -3,4028E + 38 a 3,4028E + 38 e com a precisão de 6 a 7 dígitos;
 ```
 float salarioMinimo = 1302.00F;
