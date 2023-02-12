@@ -51,5 +51,19 @@ public class Operadores {
         
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao); // 13
+
+        // Operadores Unários (-), (+), (++), (--) e (!)
+        int numero = 100;
+
+        System.out.println(-numero); // -100
+        System.out.println(+numero); // 100
+        System.out.println(--numero); // 99
+        System.out.println(++numero); // 100
+        
+        boolean verdadeiro = true;
+
+        System.out.println("Normal: " + verdadeiro); //Normal: true
+        System.out.println("Inverteu: " + !verdadeiro); // Inverteu: false
+    
     }
 }
