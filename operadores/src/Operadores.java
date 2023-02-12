@@ -84,5 +84,25 @@ public class Operadores {
         String resultado = (a == b) ? "verdadeiro" : "false";
 
         System.out.println(resultado);
+
+
+        // Operadores Relacionais:
+        int numeroUm = 1;
+        int numeroDois = 2;
+
+        if(numeroUm > numeroDois)
+	        System.out.print("Numero 1 maior que numero 2");
+
+        if(numeroUm < numeroDois)
+	        System.out.print("Numero 1 menor que numero 2");
+
+        if(numeroUm >= numeroDois)
+	        System.out.print("Numero 1 maior ou igual que numero 2");
+
+        if(numeroUm <= numeroDois)
+	        System.out.print("Numero 1 menor ou igual que numero 2");
+
+        if(numeroUm != numeroDois)
+	        System.out.print("Numero 1 é diferente de numero 2");
     }
 }
