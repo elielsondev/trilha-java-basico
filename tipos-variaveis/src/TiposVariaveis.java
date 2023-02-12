@@ -18,7 +18,7 @@ public class TiposVariaveis {
         long cpf = 81938650010L; 
         // Suporta valores entre: -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
 
-        float altura = 1.80f; 
+        float altura = 1.80f;
         // Suporta valores entre: -3,4028E + 38 a 3,4028E + 38 precisão de 6 – 7 dígitos
 
         /* OBSERVAÇÃO: Os tipos float sempre irão possuir o caractere “f” no final do 
