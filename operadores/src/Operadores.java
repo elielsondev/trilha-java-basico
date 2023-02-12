@@ -21,7 +21,7 @@ public class Operadores {
         System.out.println(soma); // 12
         System.out.println(subtracao); // 8
         System.out.println(multiplicacao); // 20
-        System.out.println(divisao); // 5 
+        System.out.println(divisao); // 5
         System.out.println(modulo); // 0
 
         // OBS: O operador (+) também concatena com Strings:
@@ -29,27 +29,27 @@ public class Operadores {
         String nome = "Elielson";
 
         String sobrenome = "Nascimento";
-        
+
         String nomeSobrenome = nome + " " + sobrenome;
-        
+
         System.out.println(nomeSobrenome); // Elielson Nascimento
 
         // Veja o que pode acontecer se concatenarmos int com String:
-        String concatenacao ="?"; 
+        String concatenacao = "?";
 
-        concatenacao = 1+1+1+"1";
+        concatenacao = 1 + 1 + 1 + "1";
         System.out.println(concatenacao); // 31
 
-        concatenacao = 1+"1"+1+1;
+        concatenacao = 1 + "1" + 1 + 1;
         System.out.println(concatenacao); // 1111
 
-        concatenacao = 1+"1"+1+"1";
+        concatenacao = 1 + "1" + 1 + "1";
         System.out.println(concatenacao); // 1111
-        
-        concatenacao = "1"+1+1+1;
+
+        concatenacao = "1" + 1 + 1 + 1;
         System.out.println(concatenacao); // 1111
-        
-        concatenacao = "1"+(1+1+1);
+
+        concatenacao = "1" + (1 + 1 + 1);
         System.out.println(concatenacao); // 13
 
         // Operadores Unários (-), (+), (++), (--) e (!)
@@ -59,11 +59,30 @@ public class Operadores {
         System.out.println(+numero); // 100
         System.out.println(--numero); // 99
         System.out.println(++numero); // 100
-        
+
         boolean verdadeiro = true;
 
-        System.out.println("Normal: " + verdadeiro); //Normal: true
+        System.out.println("Normal: " + verdadeiro); // Normal: true
         System.out.println("Inverteu: " + !verdadeiro); // Inverteu: false
-    
+
+        // Operador Ternário:
+        int a, b;
+
+        a = 5;
+        b = 6;
+
+        // EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+        /* 
+        String resultado = "";
+        if(a==b)
+            resultado = "verdadeiro";
+        else
+            resultado = "falso";
+        */
+
+        // MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
+        String resultado = (a == b) ? "verdadeiro" : "false";
+
+        System.out.println(resultado);
     }
 }
