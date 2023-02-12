@@ -65,7 +65,7 @@ Esses operadores, são aplicados juntamente com um outro operador aritmético. E
 
     *(!) Operador unário lógico de negação* – nega o valor de uma expressão booleana.
 
-**Muito cuidado com ordem de precedência, dos operadores unários!**
+*Muito cuidado com ordem de precedência, dos operadores unários!*
 
 #### Ternário
 O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária, como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
