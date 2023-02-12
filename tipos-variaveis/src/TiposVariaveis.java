@@ -34,5 +34,11 @@ public class TiposVariaveis {
 
         /* CUIDADO: Ao converter números em float ou double lembre-se que o ponto é
         por conversão Americana que no nosso caso equivale a vírgula.*/
+
+        // Definindo uma CONSTANTE:
+        final String nacionalidade = "Brasileiro";
+
+        /* A Constante é utilizada quando não queremos que o valor definido
+        não seja alterado nunca. */
     }
 }
