@@ -36,7 +36,7 @@ public class TiposVariaveis {
         por conversão Americana que no nosso caso equivale a vírgula.*/
 
         // Definindo uma CONSTANTE:
-        final String nacionalidade = "Brasileiro";
+        final String NACIONALIDADE = "Brasileiro";
 
         /* A Constante é utilizada quando não queremos que o valor definido
         não seja alterado nunca. */
