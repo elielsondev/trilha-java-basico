@@ -1,18 +1,38 @@
-## Getting Started
+## Anatomia das classes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sintaxe de declaração de uma nova classe:
+```
+public class MyClass {
+   // Corpo da class
+};
+```
 
-## Folder Structure
++ 99,9% das nossas classes iniciarão com public class;
 
-The workspace contains two folders by default, where:
++ Toda classe precisa de nome, exemplo MinhaClasse;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
++ O nome do arquivo deve ser idêntico ao nome da classe pública;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ Após o nome, definir o corpo { } , onde iremos compor nossas classes com atributos e
+métodos.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```
+public class MyClass {
+   // Corpo da class
 
-## Dependency Management
+   public static void main(String[] args) {
+      // Corpo do metodo principal
+   };
+};
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+É de suma importância que agora você consiga se localizar dentro do conjunto de chaves { }
+existentes em sua classe.
+
++ Dentro de uma aplicação, recomenda-se que somente uma classe possua o método main,
+responsável por iniciar todo o nosso programa.
+
++ O método main recebe seu nome main, sempre terá a visibilidade public, será difinido como
+static, não retornará nenhum valor com void e receberá um parâmetro do tipo array de
+caracteres: String[].
+
