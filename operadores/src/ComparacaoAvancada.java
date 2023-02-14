@@ -25,8 +25,8 @@ public class ComparacaoAvancada {
         int numero2 = 130;
         System.out.println(numero1 == numero2); //true
     
-        int numero1 = 130;
-        int numero2 = 130;
+        // int numero1 = 130;
+        // int numero2 = 130;
         System.out.println(numero1 == numero2); //false
     
         /*
@@ -36,6 +36,6 @@ public class ComparacaoAvancada {
             Quando queremos comparar objetos, usamos o método equals
         */
     
-        System.out.println(numero1.equals(numero2));
+        // System.out.println(numero1.equals(numero2));
     }
 }
