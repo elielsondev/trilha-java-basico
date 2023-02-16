@@ -8,6 +8,7 @@ public void myMetodo() {
    // Corpo do método
 };
 ```
+###### Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void, porém caso ela tenha retorno deve-se inserir o tipo do mesmo, como: String, boolean, int ...
 
 *Critério de nomeação de Métodos:*
 Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras pessoas. 
