@@ -6,3 +6,5 @@ Aprendendo Java de forma prática
 [- Tipos Variáveis](https://github.com/elielsondev/trilha-java-basico/tree/main/tipos-variaveis)
 
 [- Operadores](https://github.com/elielsondev/trilha-java-basico/tree/main/operadores)
+
+[- Métodos](https://github.com/elielsondev/trilha-java-basico/tree/main/metodos)
