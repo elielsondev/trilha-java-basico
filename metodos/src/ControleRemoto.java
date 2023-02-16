@@ -3,5 +3,6 @@ public class ControleRemoto {
         SmartTv minhaTv = new SmartTv();
 
         minhaTv.ligar();
+        minhaTv.desligar();
     };
 };

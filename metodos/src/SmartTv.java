@@ -11,6 +11,11 @@ public class SmartTv {
         ligada = true;
         System.out.println(ligada ? "TV Ligada" : "TV Desligada");
     }
+
+    public void desligar() {
+        ligada = false;
+        System.out.println(ligada ? "TV Ligada" : "TV Desligada");
+    }
     // Nossa TV aumentará e diminuirá o volume sempre em +1 ou -1;
         // O volume deve apenas de 0 a 100;
 
