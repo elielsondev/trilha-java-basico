@@ -31,6 +31,13 @@ public class ControleRemoto {
         minhaTv.voltarCanal();
         minhaTv.voltarCanal();
 
+        minhaTv.selecionarCanal(100); // OK!
+        minhaTv.selecionarCanal(101); // Não vai pra esse canal.
+
+        minhaTv.selecionarCanal(1); // OK!
+        minhaTv.selecionarCanal(0); // Não vai pra esse canal.
+
+
         // Qualquer método pode ser chamado infinitas vezes...
     };
 };

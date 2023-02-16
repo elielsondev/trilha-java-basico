@@ -1,3 +1,4 @@
+import javax.lang.model.util.ElementScanner6;
 
 // Vamos criar um exemplo de uma classe para representar uma SmartTV onde:
 public class SmartTv {
@@ -54,4 +55,9 @@ public class SmartTv {
         Porém se a tv estiver no canal 100 e o usuário avançar um canal,
         o canal sitonizado será o 1.
          */
+    public void selecionarCanal(int canalInserido) {
+        if(canalInserido >= 1 && canalInserido <= 100)
+            canal = canalInserido;
+        System.out.println("Canal :" + canal);
+    }
 }
