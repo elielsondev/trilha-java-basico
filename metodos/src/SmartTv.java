@@ -33,6 +33,21 @@ public class SmartTv {
 
     // Nossa TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente.
         // Os canais são de 1 a 100
+    public void avancarCanal() {
+        if(canal == 100)
+            canal = 1;
+        else
+            canal ++;
+        System.out.println("Canal " + canal);
+    };
+
+    public void voltarCanal() {
+        if(canal == 1)
+            canal = 100;
+        else
+            canal --;
+        System.out.println("Canal: " + canal);
+    };
 
         /* OBS: Caso a tv esteja no canal 1 e o usuário volte 1 canal,
         o canal sitonizado será o 100.

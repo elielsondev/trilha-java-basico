@@ -15,7 +15,6 @@ public class ControleRemoto {
         minhaTv.aumentarVolume();
         minhaTv.aumentarVolume();
         minhaTv.aumentarVolume();
-        // ... Chame o metodo quantas vezes quiser...
 
         /*
         Se você fizer o teste para diminuir o volume várias vezes,
@@ -24,7 +23,14 @@ public class ControleRemoto {
         minhaTv.diminuirVolume();
         minhaTv.diminuirVolume();
         minhaTv.diminuirVolume();
-        // ... Chame o metodo quantas vezes quiser...
 
+        minhaTv.avancarCanal();
+        minhaTv.avancarCanal();
+
+        minhaTv.voltarCanal();
+        minhaTv.voltarCanal();
+        minhaTv.voltarCanal();
+
+        // Qualquer método pode ser chamado infinitas vezes...
     };
 };
