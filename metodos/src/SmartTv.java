@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner6;
-
 // Vamos criar um exemplo de uma classe para representar uma SmartTV onde:
 public class SmartTv {
     // Ela tenha as características: ligada (boolean), canal (int) e volume (int);
