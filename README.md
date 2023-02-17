@@ -8,3 +8,7 @@ Aprendendo Java de forma prática
 [- Operadores](https://github.com/elielsondev/trilha-java-basico/tree/main/operadores)
 
 [- Métodos](https://github.com/elielsondev/trilha-java-basico/tree/main/metodos)
+
+[- Escopo](https://github.com/elielsondev/trilha-java-basico/tree/main/escopo)
+
+[- Palavras Reservadas](https://github.com/elielsondev/trilha-java-basico/tree/main/palavras-reservadas)
