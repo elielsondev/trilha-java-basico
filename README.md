@@ -12,3 +12,5 @@ Aprendendo Java de forma prática
 [- Escopo](https://github.com/elielsondev/trilha-java-basico/tree/main/escopo)
 
 [- Palavras Reservadas](https://github.com/elielsondev/trilha-java-basico/tree/main/palavras-reservadas)
+
+[- Documentação, Tags, Comentários e Javadoc](https://github.com/elielsondev/trilha-java-basico/tree/main/documentac%C3%A3o%2C%20tags%2C%20coment%C3%A1rios%20e%20javadoc)
