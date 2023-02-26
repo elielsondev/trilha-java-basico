@@ -39,4 +39,11 @@ Tabuada de 5:
 5 x 10 = 50
 ```
 
+### Fatorial
+
+1 - Faça um programa que calcule o fatorial
+de um número inteiro fornecido pelo usuário.
+
+Ex: 5! = 120
+
 # Exemplos práticos de Arrays
