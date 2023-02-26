@@ -19,6 +19,6 @@ Aprendendo Java de forma prática
 
 [- Exemplos de loops(estrutura de repetição) e Arrays](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array);
 
-    - [ -> Loops](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array/src/com/br/softeli/exemplos/loops);
+- [ -> Loops](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array/src/com/br/softeli/exemplos/loops);
     
-    - [ -> Arrays]()
+- [ -> Arrays]()
