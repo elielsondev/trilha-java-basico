@@ -18,5 +18,7 @@ Aprendendo Java de forma prática
 [- Terminal e Argumentos](https://github.com/elielsondev/trilha-java-basico/blob/main/terminal-e-argumentos/1.10%20-%20Terminal%20e%20Argumentos.pdf)
 
 [- Exemplos de loops(estrutura de repetição) e Arrays](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array);
-        - [ -> Loops](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array/src/com/br/softeli/exemplos/loops);
-        - [ -> Arrays]()
+
+    - [ -> Loops](https://github.com/elielsondev/trilha-java-basico/tree/main/exemplos-estrutura-de-repeticao-e-array/src/com/br/softeli/exemplos/loops);
+    
+    - [ -> Arrays]()
