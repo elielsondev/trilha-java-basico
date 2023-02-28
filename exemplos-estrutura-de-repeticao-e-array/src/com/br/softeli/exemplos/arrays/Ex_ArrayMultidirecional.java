@@ -1,6 +1,9 @@
 package com.br.softeli.exemplos.arrays;
 
 import java.util.Random;
+/* Gere e imprima uma matriz M 4X4 com valores aleatórios entre 0 - 9.
+ * 
+*/
 
 public class Ex_ArrayMultidirecional {
     public static void main(String[] args) {
