@@ -47,3 +47,11 @@ de um número inteiro fornecido pelo usuário.
 Ex: 5! = 120
 
 # Exemplos práticos de Arrays
+
+### Ordem inversa
+
+1- Crie um vetor de 6 números inteiros:
+
+2 - Mostre os valores na ordem do array;
+
+3 - Mostre os valores na ordem inversa do array.
