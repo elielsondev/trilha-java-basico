@@ -55,3 +55,9 @@ Ex: 5! = 120
 2 - Mostre os valores na ordem do array;
 
 3 - Mostre os valores na ordem inversa do array.
+
+### Consoantes
+
+1 - Faça um vetor (array) de 6 caracteres:
+    - Diga quantas consoantes foram lidas.
+    - Imprima as consoantes.
